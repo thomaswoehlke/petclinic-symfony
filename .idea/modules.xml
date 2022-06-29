@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/../petclinic-puml/.idea/petclinic-puml.iml" filepath="$PROJECT_DIR$/../petclinic-puml/.idea/petclinic-puml.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/petclinic-symfony.iml" filepath="$PROJECT_DIR$/.idea/petclinic-symfony.iml" />
     </modules>
   </component>
