@@ -1,0 +1,16 @@
+@startuml
+left to right direction
+'top to bottom direction
+
+'https://plantuml.com/use-case-diagram
+
+User - (Login)
+package application {
+    (Login) -> (Navigation)
+    (Navigation) --> (Start)
+    (Navigation) --> (Info)
+    (Navigation) --> (Help)
+    (Navigation) --> (UserInfo)
+    (Navigation) --> (Logout)
+}
+@enduml

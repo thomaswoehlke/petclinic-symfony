@@ -1,0 +1,16 @@
+@startuml
+left to right direction
+'top to bottom direction
+
+'https://plantuml.com/use-case-diagram
+
+User - (Login)
+package vet {
+    (Login) -> (Navigation)
+    (Navigation) -> (Vet.list)
+    (Vet.list) --> (Vet.search)
+    (Vet.list) ---> (Vet.addNew)
+    (Vet.list) ---> (Vet.edit)
+    (Vet.list) ---> (Vet.delete)
+}
+@enduml
